@@ -276,7 +276,7 @@ function import_empty_db() {
   local __db=$3
   local __path=$4
   local __mode=$5
-  local __host=localhost
+  local __host=127.0.0.1
 
   if [[ -n $6 ]]
     then
